@@ -11,9 +11,10 @@ To retrain the model:
 2. Prepare your own dataset and run `train.py`.  
 
 To reproduce the entire training process:  
-1. Collect sufficient real-world underwater images.  
+1. Collect sufficient real-world images.  
 2. Run `data.py` for data synthesis.  
-3. Use the synthesized dataset to train the model via `train.py`.  
+3. Use the synthesized dataset to pretrain the model via `pretrain.py`.
+4. Run `train.py`.  
 
 ### Acknowledgements
 1. Underwater image synthesis coefficients are computed using the method from [hainh/sea-thru](https://github.com/hainh/sea-thru).  
