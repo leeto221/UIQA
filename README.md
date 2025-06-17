@@ -1,12 +1,10 @@
 This is a Python implementation of the paper "EPCFQA: Explicit Physical Constraint Fusion Framework for Underwater Image Quality Assessment".
 
-If you want to test the code, please download the weight file in [BaiduDisk](通过网盘分享的文件：moelpth
-链接: https://pan.baidu.com/s/1HpiN2VW2kRylT1zsY0jEOw 提取码: 0221 
---来自百度网盘超级会员v3的分享) first.
+If you want to test the code, please download the weight file in [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221) first.
 For batch files, you should run predictability dir. py.
 For a single image, you should run predict_stngle. py.
 
-If you want to retrain the code, please download the pre training weight file from point A and use your own dataset for training. You should run train.exe.
+If you want to retrain the code, please download the pre training weight file in [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221) and use your own dataset for training. You should run train.exe.
 
 If you want to redo the entire training process, you need to prepare a sufficient number of real-world datasets, then use data.Py for data synthesis, and proceed with training.
 
