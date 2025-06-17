@@ -1,4 +1,4 @@
-#This is a Python implementation of the paper "EPCFQA: Explicit Physical Constraint Fusion Framework for Underwater Image Quality Assessment".
+# This is a Python implementation of the paper "EPCFQA: Explicit Physical Constraint Fusion Framework for Underwater Image Quality Assessment".
 
 If you want to test the code, please download the weight file in [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221) first.
 For batch files, you should run predictability dir. py.
