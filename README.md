@@ -1,15 +1,20 @@
 # This is a Python implementation of the paper "EPCFQA: Explicit Physical Constraint Fusion Framework for Underwater Image Quality Assessment".
 
 ### Test
-If you want to test the code, please download the weight file in [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221) first.  
-For batch files, you should run predict_dir. py.  
-For a single image, you should run predict_single. py.  
+To test the model, first download the pre-trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
+- For batch processing, run `predict_dir.py`.  
+- For single image processing, run `predict_single.py`.  
 
 ### Train
-If you want to retrain the code, please download the pre training weight file in [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221) and use your own dataset for training. You should run train.exe.  
-If you want to redo the entire training process, you need to prepare a sufficient number of real-world datasets, then use data.Py for data synthesis, and proceed with training.  
+To retrain the model:  
+1. Download the pre-trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
+2. Prepare your own dataset and run `train.py`.  
 
-### Acknowlegements
+To reproduce the entire training process:  
+1. Collect sufficient real-world underwater images.  
+2. Run `data.py` for data synthesis.  
+3. Use the synthesized dataset to train the model via `train.py`.  
 
-1.The coefficients for synthesizing underwater images are computed based on [hainh/sea-thru](https://github.com/hainh/sea-thru).  
-2.We sincerely thank the author of the [DysenNet](https://ieeexplore.ieee.org/abstract/document/10852362) paper and his team for providing us with the complete SOTA dataset.
+### Acknowledgements
+1. Underwater image synthesis coefficients are computed using the method from [hainh/sea-thru](https://github.com/hainh/sea-thru).  
+2. We thank the authors of [DysenNet](https://ieeexplore.ieee.org/abstract/document/10852362) for providing the complete SOTA dataset.
