@@ -16,6 +16,9 @@ To reproduce the entire training process:
 3. Use the synthesized dataset to pretrain the model via `pretrain.py`.
 4. Run `train.py`.  
 
+### Notice
+When running these codes, please replace them with your own file path according to the code prompts.  
+
 ### Acknowledgements
 1. Underwater image synthesis coefficients are computed using the method from [hainh/sea-thru](https://github.com/hainh/sea-thru).  
 2. We thank the authors of [DysenNet](https://ieeexplore.ieee.org/abstract/document/10852362) for providing the complete SOTA dataset.
