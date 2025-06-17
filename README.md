@@ -8,7 +8,9 @@ If you want to retrain the code, please download the pre training weight file in
 
 If you want to redo the entire training process, you need to prepare a sufficient number of real-world datasets, then use data.Py for data synthesis, and proceed with training.
 
+
+
 Acknowlegements
 
-1.The coefficients for synthesizing underwater images are computed based on [hainh/sea-thru](https://github.com/hainh/sea-thru).
+1.The coefficients for synthesizing underwater images are computed based on [hainh/sea-thru](https://github.com/hainh/sea-thru).\\
 2.We sincerely thank the author of the [DysenNet](https://ieeexplore.ieee.org/abstract/document/10852362) paper and his team for providing us with the complete SOTA dataset.
