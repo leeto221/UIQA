@@ -1,7 +1,7 @@
 # This is a Python implementation of the paper "EPCFQA: Explicit Physical Constraint Fusion Framework for Underwater Image Quality Assessment".
 
 ### Test
-To test the model, first download the pre-trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
+To test the model, first download the trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
 - For batch processing, run `predict_dir.py`.  
 - For single image processing, run `predict_single.py`.  
 
