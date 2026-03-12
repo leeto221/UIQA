@@ -12,13 +12,13 @@ To test the model, first download the trained weights from [BaiduDisk](https://p
 ### Train
 To retrain the model:  
 1. Download the pre-trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
-2. Prepare your own dataset and run `train.py`.  
+2. Prepare your own dataset and run `train_dual.py`.  
 
 To reproduce the entire training process:  
 1. Collect sufficient real-world images from [SyreaNet](https://github.com/RockWenJJ/SyreaNet), or prepare them yourself.
 2. Run `data.py` for data synthesis.  
 3. Use the synthesized dataset to pretrain the model via `pretrain.py`.
-4. Run `train.py`.  
+4. Run `train_dual.py`.  
 
 ### Notice
 When running these codes, please replace them with your own file path according to the code prompts.  
