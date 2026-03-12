@@ -7,8 +7,7 @@ Before running, please create a suitable conda environment.
 
 ### Test
 To test the model, first download the trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
-- For batch processing, run `predict_dir.py`.  
-- For single image processing, run `predict_single.py`.  
+- run `dual_predict_dir.py`.  
 
 ### Train
 To retrain the model:  
@@ -16,7 +15,7 @@ To retrain the model:
 2. Prepare your own dataset and run `train.py`.  
 
 To reproduce the entire training process:  
-1. Collect sufficient real-world images.  
+1. Collect sufficient real-world images from [SyreaNet](https://github.com/RockWenJJ/SyreaNet), or prepare them yourself.
 2. Run `data.py` for data synthesis.  
 3. Use the synthesized dataset to pretrain the model via `pretrain.py`.
 4. Run `train.py`.  
