@@ -309,7 +309,7 @@ def main():
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--lr', type=float, default=1e-4)
-    parser.add_argument('--base_seed', type=int, default=43)
+    parser.add_argument('--base_seed', type=int, default=44)
     parser.add_argument('--repeats', type=int, default=3)
     parser.add_argument('--gpu_id', type=int, default=0)
 
