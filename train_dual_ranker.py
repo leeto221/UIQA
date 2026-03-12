@@ -275,7 +275,7 @@ def main():
     parser.add_argument('--epochs', type=int, default=30)
     parser.add_argument('--lr', type=float, default=2e-4)
     parser.add_argument('--weight_decay', type=float, default=0.01)
-    parser.add_argument('--base_seed', type=int, default=43)
+    parser.add_argument('--base_seed', type=int, default=44)
     parser.add_argument('--repeats', type=int, default=3)
     parser.add_argument('--gpu_id', type=int, default=0)
     args = parser.parse_args()
