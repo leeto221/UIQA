@@ -1,4 +1,4 @@
-# This is a Python implementation of the paper "EPCFQA: Explicit Physical Constraint Fusion Framework for Underwater Image Quality Assessment".
+# This is a Python implementation of the paper "DPGA-QA: A Dual-Stream Physics-Guided Attention Framework for Underwater Image Quality Assessment".
 
 ### Test
 To test the model, first download the trained weights from [BaiduDisk](https://pan.baidu.com/s/1q7Je2b3yK8An8-XSOhVdfA?pwd=0221).  
